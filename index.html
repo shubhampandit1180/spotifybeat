@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="close-btn">
+          <img
+            width="30px"
+            class="invert close-btn"
+            src="img/close.svg"
+            alt=""
+          />
+        </div>
+        <div class="home bg-grey m-1 p-1">
+          <div class="logo invert">
+            <img width="110" src="img/logo.svg" alt="" />
+          </div>
+          <ul>
+            <li><img class="invert" src="img/home.svg" alt="Home" />Home</li>
+            <li>
+              <img class="invert" src="img/search.svg" alt="Search" />Search
+            </li>
+          </ul>
+        </div>
+        <div class="liberary bg-grey rounded m-1 p-1">
+          <div class="heading">
+            <img src="img/playlist.svg" class="invert" alt="" />
+            <h2>Your Library</h2>
+          </div>
+
+          <div class="songlist">
+            <ul></ul>
+          </div>
+
+          <div class="footer">
+            <div>
+              <a
+                href="https://www.spotify.com/in-en/legal/"
+                id=""
+                class=""
+                data-encore-id="textLink"
+              >
+                <span data-encore-id="type">Legal</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/in-en/privacy/"
+                id=""
+                class=""
+                data-encore-id="textLink"
+              >
+                <span data-encore-id="type">Privacy Center</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                id=""
+                class=""
+                data-encore-id="textLink"
+              >
+                <span data-encore-id="type">Privacy Policy</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                id=""
+                class=""
+                data-encore-id="textLink"
+              >
+                <span data-encore-id="type">Cookies</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                id=""
+                class=""
+                data-encore-id="textLink"
+              >
+                <span data-encore-id="type">About Ads</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/in-en/accessibility/"
+                id=""
+                class=""
+                data-encore-id="textLink"
+              >
+                <span data-encore-id="type">Accessibility</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right bg-grey rounded">
+        <div class="header">
+          <div class="nav">
+            <div class="flex hamburgerContainer">
+              <img class="invert hamburger" src="img/hamburger.svg" alt="" />
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18"
+                  stroke="#ffffff"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18"
+                  stroke="#ffffff"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="buttons">
+            <button class="signup-btn">Sign up</button>
+            <button class="login-btn">Log In</button>
+          </div>
+        </div>
+        <div class="spotifyplaylist">
+          <h1>Spotify Playlist</h1>
+          <div class="cardcontainer">
+            <div data-folder="ncs" class="card">
+              <div class="play">
+                <svg
+                  width="50"
+                  height="50"
+                  viewBox="0 0 24 24"
+                  fill="#1fdf64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="black"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"
+                    stroke="black"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+
+              <img src="images/arijit 2.jpg" alt="" />
+              <h2>Pop Hits</h2>
+              <p>Arijit is on top of the Hottest 50</p>
+            </div>
+            <div data-folder="retro" class="card">
+              <div class="play">
+                <svg
+                  width="50"
+                  height="50"
+                  viewBox="0 0 24 24"
+                  fill="#1fdf64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="black"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"
+                    stroke="black"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+
+              <img src="images/kishoreda.jpg" alt="" />
+              <h2>Old is Gold</h2>
+              <p>Best of Kishore Kumar Evergreen Hit Songs</p>
+            </div>
+            <div data-folder="punjabi" class="card">
+              <div class="play">
+                <svg
+                  width="50"
+                  height="50"
+                  viewBox="0 0 24 24"
+                  fill="#1fdf64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="black"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"
+                    stroke="black"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+
+              <img src="images/guru.jpg" alt="" />
+              <h2>Punjabi Hits</h2>
+              <p>Discover the Guru Randhawa Top hits Songs</p>
+            </div>
+            <div data-folder="bollywood" class="card">
+              <div class="play">
+                <svg
+                  width="50"
+                  height="50"
+                  viewBox="0 0 24 24"
+                  fill="#1fdf64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="black"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"
+                    stroke="black"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+
+              <img src="images/srk2.jpeg" alt="" />
+              <h2>BollyWood Hits</h2>
+              <p>Discover the Best of Shahrukh Khan Songs</p>
+            </div>
+            <div data-folder="vintage" class="card">
+              <div class="play">
+                <svg
+                  width="50"
+                  height="50"
+                  viewBox="0 0 24 24"
+                  fill="#1fdf64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="black"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"
+                    stroke="black"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+
+              <img src="images/hits of ninty.webp" alt="" />
+              <h2>Vintage Hits</h2>
+              <p>Discover 90's Golden Hits</p>
+            </div>
+            <div data-folder="superhits" class="card">
+              <div class="play">
+                <svg
+                  width="50"
+                  height="50"
+                  viewBox="0 0 24 24"
+                  fill="#1fdf64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="black"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"
+                    stroke="black"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+
+              <img src="images/emi.jpg" alt="" />
+              <h2>Top Hits</h2>
+              <p>Best Of Emraan Hashmi Songs</p>
+            </div>
+
+            <div data-folder="love" class="card">
+              <div class="play">
+                <svg
+                  width="50"
+                  height="50"
+                  viewBox="0 0 24 24"
+                  fill="#1fdf64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="black"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"
+                    stroke="black"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+
+              <img src="images/kk.jpg" alt="" />
+              <h2>Evergreen Songs</h2>
+              <p>Experience the energy of classic and modern rock of KK</p>
+            </div>
+
+            <div data-folder="pop" class="card">
+              <div class="play">
+                <svg
+                  width="50"
+                  height="50"
+                  viewBox="0 0 24 24"
+                  fill="#1fdf64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="black"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"
+                    stroke="black"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+
+              <img src="images/diljit.jpeg" alt="" />
+              <h2>Today's Top Hits</h2>
+              <p>Discover the latest pop hits from Diljit Dosanjh</p>
+            </div>
+            <div data-folder="marathi" class="card">
+              <div class="play">
+                <svg
+                  width="50"
+                  height="50"
+                  viewBox="0 0 24 24"
+                  fill="#1fdf64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="black"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"
+                    stroke="black"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+
+              <img src="images/marathi.jpg" alt="" />
+              <h2>Marathi Top Hits</h2>
+              <p>Best of Marathi</p>
+            </div>
+            <div data-folder="international" class="card">
+              <div class="play">
+                <svg
+                  width="50"
+                  height="50"
+                  viewBox="0 0 24 24"
+                  fill="#1fdf64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="10"
+                    stroke="black"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"
+                    stroke="black"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+
+              <img src="images/international.jpg" alt="" />
+              <h2>international Hits</h2>
+              <p>All time international hits</p>
+            </div>
+          </div>
+          <div class="playbar">
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+            <div class="abovebar">
+              <div class="songinfo"></div>
+              <div class="songsbuttons">
+                <img width="35" id="previous" src="img/prevsong.svg" alt="" />
+                <img width="35" id="play" src="img/play.svg" alt="" />
+                <img width="35" id="next" src="img/nextsong.svg" alt="" />
+              </div>
+
+              <div class="timevol">
+                <div class="songtime"></div>
+                <div class="volume">
+                  <img width="25" src="img/volume.svg" alt="" />
+                  <div class="range">
+                    <input type="range" name="volume" value="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
